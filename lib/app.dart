@@ -6,8 +6,9 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Home(),
+    return GetMaterialApp(
+      home: const Home(),
+      theme: ThemeData(dividerColor: Colors.grey[350]),
       debugShowCheckedModeBanner: false,
     );
   }
