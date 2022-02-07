@@ -14,6 +14,7 @@ dependencies:
 
   # c
   cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.0
 
   # g
   get: ^4.6.1
@@ -23,6 +24,9 @@ dependencies:
 
   # r
   responsive_builder: ^0.4.1
+
+  # t
+  timeago: ^3.2.1
   
 
 dev_dependencies:
